@@ -1,0 +1,57 @@
+
+j	java:S116"PRename this field "q_mca" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğñ¿ñøÿÿÿÿ
+k	java:S116"QRename this field "q_math" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñğ¹³ùÿÿÿÿ
+P
+java:S1161":Add the "@Override" annotation above this method signature(ì˜ä—
+i
+java:S1989"SHandle the following exception that could be thrown by "sendRedirect": IOException.(«‡È¡
+P
+java:S2479:":Remove the non-escaped \u0009 character from this literal.(ôğÿÚ
+P
+java:S2479;":Remove the non-escaped \u0009 character from this literal.(Ñç¶á
+U
+java:S2479<":Remove the non-escaped \u0009 character from this literal.(’ÎÌâûÿÿÿÿ
+U
+java:S2479=":Remove the non-escaped \u0009 character from this literal.(áïßøÿÿÿÿ
+P
+java:S2479>":Remove the non-escaped \u0009 character from this literal.(¿”§ú
+P
+java:S2479?":Remove the non-escaped \u0009 character from this literal.(ŸÈ‰£
+U
+java:S2479@":Remove the non-escaped \u0009 character from this literal.(™›§ûøÿÿÿÿ
+U
+java:S2479A":Remove the non-escaped \u0009 character from this literal.(ì×Èªşÿÿÿÿ
+U
+java:S2479B":Remove the non-escaped \u0009 character from this literal.(ÃÛ·˜ûÿÿÿÿ
+P
+java:S2479C":Remove the non-escaped \u0009 character from this literal.(šôşİ
+U
+java:S2479D":Remove the non-escaped \u0009 character from this literal.(¶§ìµüÿÿÿÿ
+P
+java:S2479E":Remove the non-escaped \u0009 character from this literal.(õºÜÁ
+U
+java:S2479F":Remove the non-escaped \u0009 character from this literal.(Ş¾Òìÿÿÿÿÿ
+P
+java:S2479G":Remove the non-escaped \u0009 character from this literal.(õºÜÁ
+P
+java:S2479H":Remove the non-escaped \u0009 character from this literal.(Îô¤
+P
+java:S2479I":Remove the non-escaped \u0009 character from this literal.(Ö¶’Š
+P
+java:S2479J":Remove the non-escaped \u0009 character from this literal.(¦§Öİ
+P
+java:S2479K":Remove the non-escaped \u0009 character from this literal.(ö©Í«
+U
+java:S2479L":Remove the non-escaped \u0009 character from this literal.(­•ÆÕøÿÿÿÿ
+P
+java:S2479P":Remove the non-escaped \u0009 character from this literal.(ÊÑ›¤
+U
+java:S2479Q":Remove the non-escaped \u0009 character from this literal.(Î¯ğóşÿÿÿÿ
+s
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ğñ¿ñøÿÿÿÿ
+s
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ñğ¹³ùÿÿÿÿ
+s
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(æ¾¼úûÿÿÿÿ
+n
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(¶¨ÜŒ

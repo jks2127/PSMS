@@ -1,0 +1,67 @@
+
+P
+java:S1161":Add the "@Override" annotation above this method signature(ì˜ä—
+k
+java:S1989"PHandle the following exception that could be thrown by "getWriter": IOException.(þ¢Ø™øÿÿÿÿ
+9
+java:S1659D"$Declare "tomark" on a separate line.(Ýj
+P
+java:S2479&":Remove the non-escaped \u0009 character from this literal.(èÎ¯ù
+P
+java:S2479'":Remove the non-escaped \u0009 character from this literal.(ôðÿÚ
+P
+java:S2479(":Remove the non-escaped \u0009 character from this literal.(Ñç¶á
+U
+java:S2479)":Remove the non-escaped \u0009 character from this literal.(’ÎÌâûÿÿÿÿ
+U
+java:S2479*":Remove the non-escaped \u0009 character from this literal.(áïßøÿÿÿÿ
+P
+java:S2479+":Remove the non-escaped \u0009 character from this literal.(¿”§ú
+P
+java:S2479,":Remove the non-escaped \u0009 character from this literal.(ŸÈ‰£
+U
+java:S2479-":Remove the non-escaped \u0009 character from this literal.(™›§ûøÿÿÿÿ
+U
+java:S2479.":Remove the non-escaped \u0009 character from this literal.(ì×Èªþÿÿÿÿ
+U
+java:S2479/":Remove the non-escaped \u0009 character from this literal.(ÃÛ·˜ûÿÿÿÿ
+P
+java:S24790":Remove the non-escaped \u0009 character from this literal.(šôþÝ
+U
+java:S24791":Remove the non-escaped \u0009 character from this literal.(¶§ìµüÿÿÿÿ
+P
+java:S24792":Remove the non-escaped \u0009 character from this literal.(õºÜÁ
+U
+java:S24793":Remove the non-escaped \u0009 character from this literal.(Þ¾Òìÿÿÿÿÿ
+P
+java:S24794":Remove the non-escaped \u0009 character from this literal.(õºÜÁ
+P
+java:S24795":Remove the non-escaped \u0009 character from this literal.(Îô¤
+P
+java:S24796":Remove the non-escaped \u0009 character from this literal.(Ö¶’Š
+P
+java:S24797":Remove the non-escaped \u0009 character from this literal.(¦§ÖÝ
+P
+java:S24798":Remove the non-escaped \u0009 character from this literal.(ö©Í«
+U
+java:S24799":Remove the non-escaped \u0009 character from this literal.(­•ÆÕøÿÿÿÿ
+P
+java:S2479=":Remove the non-escaped \u0009 character from this literal.(áå†»
+O
+java:S2479>":Remove the non-escaped \u0009 character from this literal.(ªüý|
+P
+java:S2479?":Remove the non-escaped \u0009 character from this literal.(ÈÅ¬‹
+P
+java:S2479@":Remove the non-escaped \u0009 character from this literal.(€‡ËÞ
+U
+java:S2479A":Remove the non-escaped \u0009 character from this literal.(Ï£à¢üÿÿÿÿ
+U
+java:S2479B":Remove the non-escaped \u0009 character from this literal.(¬…Îáýÿÿÿÿ
+U
+java:S2479C":Remove the non-escaped \u0009 character from this literal.(è¾Ôàùÿÿÿÿ
+a
+java:S1192F"FDefine a constant instead of duplicating this literal "</td>" 5 times.(ŽÁ¸Ëûÿÿÿÿ
+W
+java:S3518Q"<Make sure "tfmark" can't be zero before doing this division.(ŽŸ‰ûÿÿÿÿ
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æßã«ýÿÿÿÿ

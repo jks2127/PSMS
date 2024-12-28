@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="styles/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+	<title>Display</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  		<div class="container-fluid">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item dropdown">
+				   	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				     	      <img src="img/reorder_black_24dp.svg">
+				    </a>
+				    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					    <li><a class="dropdown-item" href="add.html">Add</a></li>
+				        <li><a class="dropdown-item" href="disp1.html">Display</a></li>
+				        <li><a class="dropdown-item" href="del1.html">Delete</a></li>
+				        <li><a class="dropdown-item" href="modi1.html">Modify</a></li>
+				    </ul>
+				</li>
+			</ul>
+			<h2 class="navbar-brand" style="text-align: center; margin-right:46%">PSMS</h2>
+			<a href="LogOut"><img src="img/log-out-outline.svg" width="30px"></a>
+			
+		</div>
+	</nav>
+	<form action="Disp" method="POST">
+	<div class="input-div mt-4">
+	
+		<label class="form-label">Choose Department To Display Enrolled Students:</label>
+		<select class="form-control" name="input_course">
+			<option value="mca">MCA</option>
+			<option value="math">MATH</option>
+		</select>
+		<button class="btn btn-warning mt-2" type="submit">Display</button>	
+	</div>
+	</form>
+	
+	
+</body>
+</html>

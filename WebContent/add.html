@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="styles/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Add</title>
+</head>
+<body style="background-color: rgb(224, 224, 224);">
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  		<div class="container-fluid">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item dropdown">
+				   	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				     	      <img src="img/reorder_black_24dp.svg">
+				    </a>
+				    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					    <li><a class="dropdown-item" href="add.html">Add</a></li>
+				        <li><a class="dropdown-item" href="disp1.html">Display</a></li>
+				        <li><a class="dropdown-item" href="del1.html">Delete</a></li>
+				        <li><a class="dropdown-item" href="modi1.html">Modify</a></li>
+				    </ul>
+				</li>
+			</ul>
+			<h2 class="navbar-brand" style="text-align: center; margin-right:46%">PSMS</h2>
+			<a href="LogOut"><img src="img/log-out-outline.svg" width="30px"></a>
+		</div>
+	</nav>
+<div class="input-div-disp mt-3">
+<table class="table">
+<tr>
+<td>
+	<div class="input-div" style="width:300px; margin:auto">
+    <form action="Add" method="POST" enctype="multipart/form-data">
+        
+        <label class="form-label">Name</label>
+        <input type="text" class="form-control" name="input_name">
+
+        <label class="form-label">Phone No.</label>
+        <input type="number" class="form-control" name="input_phone">
+
+        <label class="form-label">Address</label>
+        <textarea class="form-control" name="input_address"></textarea>
+        
+        <label class="form-label">DOB</label>
+        <input class="form-control" type="date" name="input_dob">
+        
+        <label class="form-label">Course</label>
+        <select class="form-control" name="input_course" id="">
+            <option value="mca">MCA</option>
+            <option value="math">Mathematics</option>
+        </select>
+
+        <label class="form-label">Fees Paid</label>
+        <input class="form-control" type="number" name="input_paid">
+
+        <label class="form-label">Photo</label>
+        <input type="file" class="form-control" name="input_pic">
+
+        <button class="btn btn-danger mt-3" type="submit">Submit</button>
+    </form>
+    </div>
+</td>
+<td></td><td></td>
+<td>
+	<div class="input-div" style="width:300px; margin:auto">
+	<label class="mt-4"><strong>* In case of new Student this data can be left as blank</strong></label>
+	<label class="mb-3"><strong>* In case of old Student left side form can be left blank</strong></label>
+	
+	<form action="Acad_add" method="POST" class="mt-4">
+	<label class="form-label">Roll No.</label>
+	<input class="form-control" name="input_roll" type="text">
+	<label class="form-label">Test Name</label>
+	<input class="form-control" name="input_testname" type="text" placeholder="1st semester/2nd semester etc">
+	<label class="form-label">Full mark</label>
+	<input class="form-control" name="input_fmark" type="number" >
+	<label class="form-label">Obtained mark</label>
+	<input class="form-control" name="input_omark" type="number" >
+	<button class="btn btn-danger mt-3" type="submit">Submit</button>
+	</form>
+	</div>
+</td>
+</tr>
+</table>
+    
+</div>
+
+</body>
+</html>

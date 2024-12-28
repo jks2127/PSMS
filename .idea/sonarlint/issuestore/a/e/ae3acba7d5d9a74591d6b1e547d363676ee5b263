@@ -1,0 +1,8 @@
+
+U
+java:S1161":Add the "@Override" annotation above this method signature(’Χ ύÿÿÿÿÿ
+U
+java:S2479":Remove the non-escaped \u0009 character from this literal.(Μι»ώϋÿÿÿÿ
+s
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(…¶ύÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(δύ€½

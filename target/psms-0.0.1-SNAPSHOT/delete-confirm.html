@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="styles/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="styles/style.css">
+	<title>Confirm Delete</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  		<div class="container-fluid">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item dropdown">
+				   	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				     	      <img src="img/reorder_black_24dp.svg">
+				    </a>
+				    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					    <li><a class="dropdown-item" href="add.html">Add</a></li>
+				        <li><a class="dropdown-item" href="disp1.html">Display</a></li>
+				        <li><a class="dropdown-item" href="del1.html">Delete</a></li>
+				        <li><a class="dropdown-item" href="modi1.html">Modify</a></li>
+				    </ul>
+				</li>
+			</ul>
+			<h2 class="navbar-brand" style="text-align: center; margin-right:46%">PSMS</h2>
+			<a href="LogOut"><img src="img/log-out-outline.svg" width="30px"></a>
+			
+		</div>
+	</nav>
+	<form action="Delete" method="POST">
+	<div class="container">
+		<input name="input_course" type="hidden" >
+		<input name="input_roll" type="hidden" >
+		<div style="width:400px; margin:auto; margin-top:10%">
+		<label class="form-label" ><strong>The data will be deleted permanently. Are you sure?</strong></label>
+		</div>
+		
+		<br>
+		<div style="width:420px; margin:auto;">
+		<button type="submit"  class="btn btn-danger" style="width:200px; ">YES</button>
+		<a class="btn btn-warning" href="Del" style="width:200px;">NO</a>
+		</div>
+	</div>
+	</form>
+</body>
+</html>

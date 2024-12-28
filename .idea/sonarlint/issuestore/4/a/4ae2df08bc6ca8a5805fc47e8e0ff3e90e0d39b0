@@ -1,0 +1,14 @@
+
+R
+java:S1854"7Remove this useless assignment to local variable "out".(þ¢Ø™øÿÿÿÿ
+S
+java:S1854"8Remove this useless assignment to local variable "roll".(ÙµüÀýÿÿÿÿ
+U
+java:S1161":Add the "@Override" annotation above this method signature(’× ýÿÿÿÿÿ
+C
+java:S1481"(Remove this unused "out" local variable.(þ¢Ø™øÿÿÿÿ
+D
+java:S1481")Remove this unused "roll" local variable.(ÙµüÀýÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°æî’ûÿÿÿÿ
+j
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æßã«ýÿÿÿÿ

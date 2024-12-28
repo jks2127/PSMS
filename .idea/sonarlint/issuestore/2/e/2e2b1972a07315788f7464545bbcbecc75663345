@@ -1,0 +1,28 @@
+
+j	java:S116"PRename this field "q_get" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÎè‡ýÿÿÿÿ
+f	java:S116"QRename this field "rs_get" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú–áè
+g	java:S116"TRename this field "pstmt_get" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìí-
+:
+java:S1659"Declare "q" on a separate line.(ÑÎè‡ýÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ì˜ä—
+R
+java:S1854%"7Remove this useless assignment to local variable "out".(þ¢Ø™øÿÿÿÿ
+P
+java:S1161":Add the "@Override" annotation above this method signature(ì˜ä—
+i
+java:S1989 "SHandle the following exception that could be thrown by "sendRedirect": IOException.(«‡È¡
+C
+java:S1481%"(Remove this unused "out" local variable.(þ¢Ø™øÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ÚÝû·úÿÿÿÿ
+V	java:S125C"<This block of commented-out lines of code should be removed.(ò“óÃûÿÿÿÿ
+s
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÑÎè‡ýÿÿÿÿ
+s
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÑÎè‡ýÿÿÿÿ
+n
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ú–áè
+l
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(Ìí-
+j
+java:S20959"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æßã«ýÿÿÿÿ

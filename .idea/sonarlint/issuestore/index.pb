@@ -1,0 +1,33 @@
+
+O
+src/com/academics/Acad_add.java,4\a\4ae2df08bc6ca8a5805fc47e8e0ff3e90e0d39b0
+R
+"src/com/academics/Acad_modify.java,a\e\ae3acba7d5d9a74591d6b1e547d363676ee5b263
+P
+ src/com/academics/Academics.java,f\2\f21e3233f0b24f48a3bb62fedc5eed4cc7527608
+I
+src/com/psms/DispInd.java,8\a\8ae37c20addaf24bfcd84d3b6adf149b405d56fc
+H
+src/com/psms/LogOut.java,3\b\3b84d869028beb862f8571f6db6b375de8aaf844
+F
+src/com/psms/Modi.java,8\8\889821e6938e11329befc65e74fdf3ea2ab7acfc
+D
+src/com/psms/CP.java,9\1\91fb50fa350b60dd5d2390727f754d2138439d6d
+E
+src/com/psms/Del.java,8\e\8e7bae521d9b9d46b16e2a455d876960b3b22f93
+H
+src/com/psms/Delete.java,b\6\b631cc9a7301320205976f659a485d9e0df001b9
+O
+src/com/psms/DeleteConfirm.java,c\3\c354ec4099ad12339ba0d4300fb656c71b79e86b
+F
+src/com/psms/Disp.java,d\e\de650b4d590cfa3f02d25dab2bf4057c3da12dcc
+8
+Procfile,b\c\bc3c68e880d1a01632bce79f69dd1387c7ba9c54
+E
+WebContent/login.html,b\7\b7d271c395d45bcd7287f246b736fb34f9ff6522
+G
+src/com/psms/Login.java,7\f\7f7a5b71b3472b89e1e684234f65a37ac5b217e6
+E
+src/com/psms/Add.java,2\e\2e2b1972a07315788f7464545bbcbecc75663345
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

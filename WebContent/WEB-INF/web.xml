@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>psms</display-name>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+    <servlet>
+  	<servlet-name>login</servlet-name>
+  	<servlet-class>com.psms.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>logout</servlet-name>
+  	<servlet-class>com.psms.LogOut</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>logout</servlet-name>
+  	<url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>add</servlet-name>
+  	<servlet-class>com.psms.Add</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>add</servlet-name>
+  	<url-pattern>/Add</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+  	<servlet-name>disp</servlet-name>
+  	<servlet-class>com.psms.Disp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>disp</servlet-name>
+  	<url-pattern>/Disp</url-pattern>
+  </servlet-mapping> 
+  
+  <servlet>
+  	<servlet-name>dispind</servlet-name>
+  	<servlet-class>com.psms.DispInd</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>dispind</servlet-name>
+  	<url-pattern>/DispInd</url-pattern>
+  </servlet-mapping> 
+ 
+  <servlet>
+  	<servlet-name>delete</servlet-name>
+  	<servlet-class>com.psms.Delete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>delete</servlet-name>
+  	<url-pattern>/Delete</url-pattern>
+  </servlet-mapping> 
+
+  <servlet>
+  	<servlet-name>del</servlet-name>
+  	<servlet-class>com.psms.Del</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>del</servlet-name>
+  	<url-pattern>/Del</url-pattern>
+  </servlet-mapping>
+     
+  
+  <servlet>
+  	<servlet-name>modi</servlet-name>
+  	<servlet-class>com.psms.Modi</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>modi</servlet-name>
+  	<url-pattern>/Modi</url-pattern>
+  </servlet-mapping> 
+  
+   <servlet>
+  	<servlet-name>modify</servlet-name>
+  	<servlet-class>com.psms.Modify</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>modify</servlet-name>
+  	<url-pattern>/Modify</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>modifycon</servlet-name>
+  	<servlet-class>com.psms.ModifyConfirm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>modifycon</servlet-name>
+  	<url-pattern>/ModifyConfirm</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+  	<servlet-name>Deletecon</servlet-name>
+  	<servlet-class>com.psms.DeleteConfirm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Deletecon</servlet-name>
+  	<url-pattern>/DeleteConfirm</url-pattern>
+  </servlet-mapping>  
+  
+  <servlet>
+  	<servlet-name>acad</servlet-name>
+  	<servlet-class>com.academics.Academics</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>acad</servlet-name>
+  	<url-pattern>/Academics</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>acad-add</servlet-name>
+  	<servlet-class>com.academics.Acad_add</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>acad-add</servlet-name>
+  	<url-pattern>/Acad_add</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>acad-modify</servlet-name>
+  	<servlet-class>com.academics.Acad_modify</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>acad-modify</servlet-name>
+  	<url-pattern>/Acad_modify</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+  	<servlet-name>acad-modify-confirm</servlet-name>
+  	<servlet-class>com.academics.Acad_modify_confirm</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>acad-modify-confirm</servlet-name>
+  	<url-pattern>/Acad_modify_confirm</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

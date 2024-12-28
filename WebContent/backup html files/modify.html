@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1">
+<link rel="stylesheet" href="styles/css/bootstrap.min.css">
+<title>Modify</title>
+</head>
+<body style="background-color: rgb(255,255,255)">
+	
+		<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+  		<div class="container-fluid">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<li class="nav-item dropdown">
+				   	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				     	      <img src="img/reorder_black_24dp.svg">
+				    </a>
+				    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					    <li><a class="dropdown-item" href="add.html">Add</a></li>
+				        <li><a class="dropdown-item" href="disp1.html">Display</a></li>
+				        <li><a class="dropdown-item" href="del1.html">Delete</a></li>
+				        <li><a class="dropdown-item" href="Modi">Modify</a></li>
+				    </ul>
+				</li>
+			</ul>
+			<h2 class="navbar-brand" style="text-align: center; margin-right:49%">SMS</h2>
+		</div>
+	</nav>
+
+	<form action="" method="">
+		<div class="container">
+	    <div class="input-div-disp">
+	        <table class="table">
+	            <tr>
+	                <td>
+	                    <div >
+	                        <label class="form-label">Name</label>
+	                        <input type="text" class="form-control" name="input_name" placeholder="">
+	
+	                        <label class="form-label">Phone</label>
+	                        <input type="number" class="form-control" name="input_phone" placeholder="">
+	
+	                        <label class="form-label">Address</label>
+	                        <textarea class="form-control" name="input_address" placeholder=""></textarea>
+	                    </div>
+	                </td>
+	                <td>
+	                <img alt="" src="d:helo.jpeg" width="150px">
+		        	<input type="file" class="form-control mt-2" name="input_pic" id="input">
+					</td>
+	            </tr>
+	            <tr>
+	                <td><label class="form-label">Fees Paid</label> </td>
+	                <td><input type="number" name="input_paid">/<input type="number" name="full_fees"></td>
+	            </tr>
+	            <tr>
+	            	<td><label class="form-label">Fees Due</label> </td>
+	                <td> </td>
+	            </tr>
+	         
+	        </table>
+	        
+	        <label for="" class="form-label">Academic Performance</label>
+	        
+	        <table class="table">
+	            <thead>
+	                <tr>
+	                    <td>Test Name</td>
+	                    <td>Secured</td>
+	                    <td>Out of</td>
+	                    <td>%</td>
+	                </tr>
+	            </thead>
+	            <tbody>
+	<!--
+	    data from database goes here using SERVLET
+	-->
+	                <tr>
+	                    <td></td>
+	                    <td></td>
+	                    <td></td>
+	                    <td></td>
+	                </tr>
+	
+	            </tbody>
+	        </table>
+	     <div style="width:200px; margin:auto">
+	    <button type="submit" class="btn btn-warning" >Modify Confirm</button>
+	    </div></div>
+	    </div>
+	    
+	</form>    
+	
+	
+</body>
+</html>
